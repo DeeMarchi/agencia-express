@@ -1,8 +1,9 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.navbar-brand img {
+    width: 150px;
 }
 
-a {
-  color: #00B7FF;
+.carousel-control-next,
+.carousel-control-prev {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
 }
