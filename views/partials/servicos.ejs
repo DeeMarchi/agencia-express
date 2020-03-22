@@ -3,9 +3,9 @@
   <div class="row mb-4">
     <% listaServicos.forEach(servico => { %>
 
-      <div class="col-md-6 text-center card d-flex justify-content-around p-5">
+      <div class="col-md-4 text-center text-break card d-flex justify-content-around p-5">
         <img src="<%= servico.imagem %>" class="img-fluid" alt="">
-        <h3><%= servico.nome %></h3>
+        <h3 class="text-uppercase"><%= servico.nome %></h3>
       </div>
 
     <% }) %>
