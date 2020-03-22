@@ -1,0 +1,13 @@
+<section id="servicos">
+  <h2 class="text-center text-uppercase my-4">Serviços</h2>
+  <div class="row">
+    <% listaServicos.forEach(servico => { %>
+
+      <div class="col-md-6 text-center card d-flex justify-content-around p-5">
+        <img src="<%= servico.imagem %>" class="img-fluid" alt="">
+        <h3><%= servico.nome %></h3>
+      </div>
+
+    <% }) %>
+  </div>
+</section>

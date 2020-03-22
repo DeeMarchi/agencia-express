@@ -2,6 +2,10 @@
     width: 150px;
 }
 
+footer img {
+    width: 50px;
+}
+
 .carousel-control-next,
 .carousel-control-prev {
     -webkit-filter: invert(100%);
